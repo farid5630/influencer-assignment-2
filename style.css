@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.banner{
+    display: flex;
+    margin-top: 50px;
+    border: 2px solid black;
+    
+}
+.banner-text{
+    width: 50%;
+    margin-right: 30px;
+}
+.banner-text h1{
+    font-size: 50px;
+    margin: 30px 0;
+}
+.banner-text p{
+    color: #3A3A3A;
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 55px;
+    line-height: 1.5em;
+}
+.banner-text a {
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 15px 25px;
+    border-radius: 35px;
+}
+.banner-img {
+    background-image: url(images/circledesign.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    margin-left: 50px;
+    width: 50%;
+}
+.banner-img img{
+    margin: 29px 0 0 60px;
+}
+
+/* main section  */
+.collection-text{
+    font-size: 35px; 
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.card{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgb(239 230 230) 0px 0px 20px 5px;
+}
+.card-img img {
+    width: 100%;
+}
+.card-text h1{
+    font-size: 30px;
+    margin: 18px 0;
+}
+.card-text h3{
+    font-size: 27px;
+
+}
+.card-text div i {
+    color: orange;
+    margin: 12px 0;
+}
+.card-text p {
+    color: #787885;
+}
+.see-more{
+    color: red;
+    margin: 35px 0;
+    text-align: right;
+}
+
+/* what we do section */
+.strategy-section{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0;
+}
+.paid-media{
+    display: grid;
+    grid-template-columns: 1fr 500px;
+}
+/* .paid-media-text{
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+} */
+.paid-media-text h1{
+    font-size: 45PX;
+    margin: 40px 0;
+}
+.paid-media-text h2 {
+    color: red;
+    font-size: 80px;
+    font-style: italic;
+}
+.paid-media-text p {
+    line-height: 1.7em;
+    color: rgb(151, 145, 145);
+}
+.paid-media-img img{
+    width: 100%;
+}
+
+.partnerships {
+    display: grid;
+    grid-template-columns:500px 1fr;
+}
+.partner-img img{
+    width: 100%;
+}
+.partner-text {
+    margin-left: 30px;
+}
+.partner-text h1{
+    font-size: 45PX;
+    margin: 55px 0 45px 0;
+}
+.partner-text h2 {
+    color: red;
+    font-size: 80px;
+    font-style: italic;
+}
+.partner-text p {
+    line-height: 1.7em;
+    color: rgb(151, 145, 145);
+}
+/* footer section */
+.footer{
+    background-color: #000;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    align-items: center;    
+}
+.footer h1{
+    margin: 10px 0;
+}
+.footer p {
+    margin: 7px 0;
+    color: #D9DBE1;
+}
+.footer i {
+    font-size: 25px;
+    margin: 10px 10px;
+
+}
+
+
+/* responsive */
+@media (maxwidth) {
+    
+}
