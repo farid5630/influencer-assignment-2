@@ -13,7 +13,7 @@ body{
 .banner{
     display: flex;
     margin-top: 50px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     
 }
 .banner-text{
@@ -88,6 +88,7 @@ body{
 }
 .see-more{
     color: red;
+    font-size: 25px;
     margin: 35px 0;
     text-align: right;
 }
@@ -102,18 +103,14 @@ body{
     display: grid;
     grid-template-columns: 1fr 500px;
 }
-/* .paid-media-text{
-    height: 500px;
-    align-items: center;
-    justify-content: center;
-} */
 .paid-media-text h1{
     font-size: 45PX;
     margin: 40px 0;
 }
 .paid-media-text h2 {
     color: red;
-    font-size: 80px;
+    font-size: 60px;
+    margin-bottom: 20px;
     font-style: italic;
 }
 .paid-media-text p {
@@ -140,7 +137,8 @@ body{
 }
 .partner-text h2 {
     color: red;
-    font-size: 80px;
+    font-size: 60px;
+    margin-bottom: 20px;
     font-style: italic;
 }
 .partner-text p {
@@ -170,6 +168,44 @@ body{
 
 
 /* responsive */
-@media (maxwidth) {
-    
+@media (max-width: 420px) {
+    .container {
+        width: 90%;
+    }
+    .banner{
+        display: block;
+    }
+    .banner-text{
+        width: 90%;
+        margin: auto;
+    }
+    .banner-img{
+        width: 90%;
+        background-size: contain;
+        margin-left: 0;
+    }
+    .banner-img img{
+        width: 90%;
+        margin: 80px 0 0 25px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .paid-media {
+        display: block;
+
+    }
+    .paid-media-img img{
+        width: 100%;
+    }
+    .partnerships{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .partner-img img{
+        width: 100%;
+    }
+
+
 }
