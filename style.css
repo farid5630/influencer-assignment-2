@@ -16,6 +16,10 @@ body{
     /* border: 2px solid black; */
     
 }
+.banner:hover img{
+    transform: scale(1.1);
+
+}
 .banner-text{
     width: 50%;
     margin-right: 30px;
@@ -48,6 +52,7 @@ body{
 }
 .banner-img img{
     margin: 29px 0 0 60px;
+    transition: transform 2s ;
 }
 
 /* main section  */
@@ -87,7 +92,7 @@ body{
     color: #787885;
 }
 .see-more{
-    color: red;
+    color: #E02C6D;
     font-size: 25px;
     margin: 35px 0;
     text-align: right;
@@ -108,7 +113,7 @@ body{
     margin: 40px 0;
 }
 .paid-media-text h2 {
-    color: red;
+    color: #E02C6D;
     font-size: 60px;
     margin-bottom: 20px;
     font-style: italic;
@@ -136,7 +141,7 @@ body{
     margin: 55px 0 45px 0;
 }
 .partner-text h2 {
-    color: red;
+    color: #E02C6D;
     font-size: 60px;
     margin-bottom: 20px;
     font-style: italic;
@@ -167,7 +172,7 @@ body{
 }
 
 
-/* responsive */
+/* mobile responsive */
 @media (max-width: 420px) {
     .container {
         width: 90%;
@@ -176,7 +181,7 @@ body{
         display: block;
     }
     .banner-text{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     .banner-img{
@@ -206,6 +211,8 @@ body{
     .partner-img img{
         width: 100%;
     }
-
-
 }
+
+/* tablet responsive */
+
+
